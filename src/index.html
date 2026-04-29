@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html class="dark coming-soon" lang="en" dir="ltr" id="app-root">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CookieBytes | Coming Soon</title>
+  <link href="css/fonts.css" rel="stylesheet"/>
+  <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body class="bg-background-dark text-text-main font-display antialiased h-[100svh] w-screen overflow-hidden selection:bg-primary selection:text-background-dark flex relative">
+  <div class="fixed inset-0 z-0 pointer-events-none bg-grid-pattern bg-[length:50px_50px] opacity-40"></div>
+  <div class="fixed inset-0 z-0 pointer-events-none bg-hero-gradient"></div>
+  <div class="scanline pointer-events-none"></div>
+  <div class="relative z-10 w-full h-full flex flex-col md:flex-row overflow-hidden">
+    <!-- Left panel -->
+    <div class="flex flex-col flex-1 md:w-[75%] md:h-full min-h-0 relative justify-between p-4 md:p-8 md:border-r border-border-dark/50 overflow-hidden order-1">
+      <div class="absolute inset-0 opacity-10 font-mono text-xs text-primary code-rain pointer-events-none overflow-hidden flex justify-between px-10">
+        <div class="w-1/4 animate-scroll-text" style="animation-duration: 25s;">
+          function initCore() {<br/>
+          &nbsp;&nbsp;system.mount('/dev/sda1');<br/>
+          &nbsp;&nbsp;memory.allocate(0xFF00);<br/>
+          &nbsp;&nbsp;network.ping('192.168.1.1');<br/>
+          &nbsp;&nbsp;security.checkIntegrity();<br/>
+          &nbsp;&nbsp;visuals.render(mode='high');<br/>
+          &nbsp;&nbsp;return true;<br/>
+          }<br/><br/>
+          class Interface extends Component {<br/>
+          &nbsp;&nbsp;constructor(props) {<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;super(props);<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;this.state = { active: true };<br/>
+          &nbsp;&nbsp;}<br/>
+          }<br/>
+          // Establishing secure connection...<br/>
+          // Handshake complete.<br/>
+          // Token verified.<br/>
+          // User: ADMIN_01<br/>
+          // Access Level: 5<br/>
+        </div>
+        <div class="w-1/4 animate-scroll-text" style="animation-duration: 18s; animation-delay: -5s;">
+          01001011 01100001<br/>
+          01101100 01101001<br/>
+          00100000 01001111<br/>
+          01010011 00000000<br/>
+          11011011 10101010<br/>
+          00110011 11001100<br/>
+          10101010 01010101<br/>
+          11110000 00001111<br/>
+          ------------------<br/>
+          [INFO] Buffer clear<br/>
+          [INFO] Stack trace:<br/>
+          at core.js:402<br/>
+          at render.js:12<br/>
+          at main.js:89<br/>
+          ------------------<br/>
+          Encrypting packet...<br/>
+          Packet sent.<br/>
+        </div>
+        <div class="w-1/4 animate-scroll-text" style="animation-duration: 30s; animation-delay: -10s;">
+          const DATA_STREAM = [<br/>
+          &nbsp;&nbsp;{ id: 1, val: 0.45 },<br/>
+          &nbsp;&nbsp;{ id: 2, val: 0.82 },<br/>
+          &nbsp;&nbsp;{ id: 3, val: 0.11 },<br/>
+          &nbsp;&nbsp;{ id: 4, val: 0.99 }<br/>
+          ];<br/>
+          DATA_STREAM.map(d =&gt; process(d));<br/>
+          // Visualizing data points<br/>
+          // Rendering 3D mesh<br/>
+          // Applying textures<br/>
+          // Raytracing active<br/>
+          <br/>
+          Error: None found.<br/>
+          Warnings: 0.<br/>
+          CPU Load: 12%<br/>
+          GPU Load: 34%<br/>
+          RAM Usage: 4.2GB<br/>
+        </div>
+      </div>
+      <!-- Desktop header (full width): logo + title on one side, theme/lang toggles on far end -->
+      <header class="relative z-20 hidden md:flex items-start justify-between w-full px-4 md:px-8 mt-4">
+        <div class="flex items-start gap-4">
+          <div class="flex items-center gap-3 group cursor-pointer">
+            <img src="logo.squeer.png" alt="CookieBytes web development group logo" class="logo-main" />
+          </div>
+          <div class="space-y-2">
+            <h1 class="text-2xl md:text-3xl font-bold text-white leading-tight">
+              <span data-i18n="hero.line1">Next Gen</span> <br/>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-400 glow-text" data-i18n="hero.line2">Digital Interface</span>
+            </h1>
+            <p class="text-text-muted text-xs font-mono max-w-xs leading-relaxed border-l border-primary/30 pl-3" data-i18n="hero.tagline">
+              Monitoring system integrity and data flow streams.
+            </p>
+          </div>
+        </div>
+        <div class="header-toolbar flex items-center gap-2" role="group" aria-label="Theme and language">
+          <button
+            type="button"
+            id="theme-toggle"
+            class="btn-icon flex items-center justify-center w-9 h-9 rounded-lg border border-border-dark/50 bg-surface-dark/50 text-text-muted hover:text-primary hover:border-primary/30 transition-colors"
+            aria-pressed="false"
+            aria-label="Toggle dark mode"
+            title="Dark / Light"
+            data-i18n-aria-label="ui.themeToggle.aria"
+            data-i18n-title="ui.themeToggle.title"
+          >
+            <span class="theme-icon-dark" aria-hidden="true"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+            <span class="theme-icon-light hidden" aria-hidden="true"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></span>
+          </button>
+          <button
+            type="button"
+            id="lang-toggle"
+            class="btn-icon flex items-center justify-center w-9 h-9 rounded-lg border border-border-dark/50 bg-surface-dark/50 text-text-muted hover:text-primary hover:border-primary/30 transition-colors font-mono text-xs font-bold"
+            aria-pressed="false"
+            aria-label="Switch language"
+            title="English / فارسی"
+            data-i18n-aria-label="ui.langToggle.aria"
+            data-i18n-title="ui.langToggle.title"
+          >
+            EN
+          </button>
+        </div>
+      </header>
+
+      <!-- Slide pages: content controlled by carousel selection -->
+      <section id="slide-pages" class="relative z-20 mt-4 mx-auto md:mx-auto text-xs font-mono w-full max-w-xs md:max-w-2xl flex-1 min-h-0 md:min-h-[320px] px-4 md:px-0">
+        <div class="slide-page coming-soon-page relative" data-slide-index="0">
+          <h2 class="text-primary font-bold mb-1" data-i18n="nav.comingSoon.heading">Coming Soon (00)</h2>
+          <p class="text-text-muted" data-i18n="nav.comingSoon.placeholder">Placeholder content for Coming Soon. This area will later show the real page for this tab.</p>
+        </div>
+        <div class="slide-page about-page flex flex-col relative" data-slide-index="1">
+          <div class="about-page-content max-w-2xl mx-auto">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[0.95] mb-6 md:mb-8 tracking-tight">
+              <span data-i18n="about.headingLine1">WHO WE</span> <br/>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-emerald-200 to-primary bg-[length:200%_auto] animate-shimmer-slow glow-text" data-i18n="about.headingLine2">ARE</span>
+            </h2>
+            <div class="about-description-scroll flex flex-col gap-2 mb-8 md:mb-10 pl-4 md:pl-6 border-l-2 border-primary/30 relative">
+              <div class="absolute -left-[2px] top-0 h-1/3 w-[2px] bg-primary shadow-[0_0_10px_#0df2f2]"></div>
+              <p class="text-text-muted text-sm md:text-base font-light max-w-md leading-relaxed" data-i18n="about.body">
+                CookieBytes builds tools and experiences that bridge design and engineering. We focus on modular systems and clear interfaces.
+              </p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <span class="text-[10px] font-mono text-primary/60 border border-primary/20 px-2 py-0.5 rounded" data-i18n="about.badge.team">TEAM</span>
+                <span class="text-[10px] font-mono text-primary/60 border border-primary/20 px-2 py-0.5 rounded" data-i18n="about.badge.vision">VISION</span>
+              </div>
+            </div>
+            <div class="flex flex-row flex-wrap items-center gap-3 md:gap-4">
+              <button
+                type="button"
+                data-modal-trigger="story"
+                class="inline-flex items-center justify-center gap-2 px-6 py-3 md:px-8 md:py-3 bg-primary/5 text-primary font-mono text-xs md:text-sm font-bold tracking-widest uppercase transition-all btn-double-glow rounded group relative overflow-hidden"
+              >
+                <span class="absolute inset-0 bg-primary/10 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+                <span class="relative z-10" data-i18n="about.storyCta">Our story</span>
+                <span class="relative z-10 inline-flex" aria-hidden="true">
+                  <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </span>
+              </button>
+              <button
+                type="button"
+                data-modal-trigger="services"
+                class="inline-flex items-center justify-center gap-2 px-6 py-3 md:px-8 md:py-3 bg-surface-dark/30 text-text-muted font-mono text-xs md:text-sm font-bold tracking-widest uppercase rounded border border-primary/20 hover:border-primary/40 hover:text-primary transition-colors"
+              >
+                <span class="relative z-10" data-i18n="about.servicesCta">Our services</span>
+                <span class="relative z-10 inline-flex" aria-hidden="true">
+                  <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16v4H4zM4 10h16v4H4zM4 16h10v4H4z"/>
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="flex items-end justify-between mt-6 md:mt-8">
+            <div class="text-[10px] font-mono text-text-muted space-y-1">
+              <p class="flex items-center gap-2">
+                <span class="inline-flex shrink-0" aria-hidden="true"><svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                <span data-i18n="about.coords">Location: Iran, Khorasan Razavi, Mashhad</span>
+              </p>
+            </div>
+            <div class="flex gap-[2px] items-end h-6 md:h-8 opacity-60">
+              <span class="w-[3px] bg-primary/80 h-[40%] rounded-sm animate-pulse" style="animation-duration: 1s;"></span>
+              <span class="w-[3px] bg-primary/60 h-[70%] rounded-sm animate-pulse" style="animation-duration: 1.2s; animation-delay: 0.1s;"></span>
+              <span class="w-[3px] bg-primary/90 h-[100%] rounded-sm animate-pulse" style="animation-duration: 0.8s; animation-delay: 0.2s;"></span>
+              <span class="w-[3px] bg-primary/50 h-[50%] rounded-sm animate-pulse" style="animation-duration: 1.5s; animation-delay: 0.3s;"></span>
+              <span class="w-[3px] bg-primary/70 h-[80%] rounded-sm animate-pulse" style="animation-duration: 1.1s; animation-delay: 0.4s;"></span>
+              <span class="w-[3px] bg-primary/40 h-[30%] rounded-sm animate-pulse" style="animation-duration: 1.3s; animation-delay: 0.5s;"></span>
+            </div>
+          </div>
+          <div class="absolute top-0 left-0 w-24 h-24 md:w-32 md:h-32 border-l border-t border-primary/20 pointer-events-none">
+            <span class="absolute top-0 left-0 w-2 h-2 bg-primary shadow-[0_0_10px_#0df2f2] rounded-full"></span>
+          </div>
+          <div class="absolute bottom-0 right-0 w-24 h-24 md:w-32 md:h-32 border-r border-b border-primary/20 pointer-events-none">
+            <span class="absolute bottom-0 right-0 w-2 h-2 bg-primary shadow-[0_0_10px_#0df2f2] rounded-full"></span>
+          </div>
+        </div>
+        <div class="slide-page works-page flex flex-col flex-1 min-h-0 relative" data-slide-index="2">
+          <div class="flex-1 overflow-y-auto works-scroll pr-2 space-y-1 min-h-0">
+            <details class="works-folder group border border-transparent border-l-2 border-l-primary/20 rounded-r hover:border-primary/30" open>
+              <summary class="flex items-center gap-2 py-2 px-3 font-mono text-sm text-white hover:text-primary transition-colors">
+                <span class="folder-icon text-text-muted group-hover:text-primary transition-colors inline-flex shrink-0" aria-hidden="true">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                </span>
+                <span class="works-folder-chevron w-2 h-2 shrink-0 inline-flex" aria-hidden="true">
+                  <svg class="w-full h-full" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </span>
+                <span>.NET</span>
+              </summary>
+              <div class="works-folder-content pl-6 pb-2 space-y-1.5">
+                <div class="directory-card directory-card-compact rounded-r border border-transparent border-l-2 cursor-pointer">
+                  <div class="flex justify-between items-center gap-2 mb-0.5">
+                    <div class="flex items-center gap-2 min-w-0">
+                      <span class="folder-icon text-text-muted shrink-0 inline-flex"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></span>
+                      <span class="text-sm font-bold text-white truncate" data-i18n="works.dotnet.apiGateway.title">API Gateway</span>
+                    </div>
+                    <span class="text-[9px] font-mono text-primary bg-primary/10 px-1.5 py-0.5 rounded border border-primary/20 shrink-0" data-i18n="works.dotnet.apiGateway.status">DEPLOYED</span>
+                  </div>
+                  <p class="text-[11px] text-text-muted font-mono leading-snug pl-5" data-i18n="works.dotnet.apiGateway.desc">REST API and auth layer for microservices.</p>
+                  <div class="flex gap-3 mt-1 pl-5 text-[9px] font-mono text-text-muted/70" data-i18n="works.dotnet.apiGateway.meta">SIZE: 45MB · UPDATED: 2d AGO</div>
+                </div>
+                <div class="directory-card directory-card-compact rounded-r border border-transparent border-l-2 cursor-pointer">
+                  <div class="flex justify-between items-center gap-2 mb-0.5">
+                    <div class="flex items-center gap-2 min-w-0">
+                      <span class="folder-icon text-text-muted shrink-0 inline-flex"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></span>
+                      <span class="text-sm font-bold text-white truncate" data-i18n="works.dotnet.dataPipeline.title">Data Pipeline</span>
+                    </div>
+                    <span class="text-[9px] font-mono text-emerald-400 bg-emerald-400/10 px-1.5 py-0.5 rounded border border-emerald-400/20 shrink-0" data-i18n="works.dotnet.dataPipeline.status">STABLE</span>
+                  </div>
+                  <p class="text-[11px] text-text-muted font-mono leading-snug pl-5" data-i18n="works.dotnet.dataPipeline.desc">ETL and background jobs on .NET Core.</p>
+                  <div class="flex gap-3 mt-1 pl-5 text-[9px] font-mono text-text-muted/70" data-i18n="works.dotnet.dataPipeline.meta">SIZE: 120MB · UPDATED: 1w AGO</div>
+                </div>
+              </div>
+            </details>
+            <details class="works-folder group border border-transparent border-l-2 border-l-primary/20 rounded-r hover:border-primary/30">
+              <summary class="flex items-center gap-2 py-2 px-3 font-mono text-sm text-white hover:text-primary transition-colors">
+                <span class="folder-icon text-text-muted group-hover:text-primary transition-colors inline-flex shrink-0" aria-hidden="true">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                </span>
+                <span class="works-folder-chevron w-2 h-2 shrink-0 inline-flex" aria-hidden="true">
+                  <svg class="w-full h-full" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </span>
+                <span>WordPress</span>
+              </summary>
+              <div class="works-folder-content pl-6 pb-2 space-y-1.5">
+                <div class="directory-card directory-card-compact rounded-r border border-transparent border-l-2 cursor-pointer">
+                  <div class="flex justify-between items-center gap-2 mb-0.5">
+                    <div class="flex items-center gap-2 min-w-0">
+                      <span class="folder-icon text-text-muted shrink-0 inline-flex"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2v6h6"/><path d="M14 2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg></span>
+                      <span class="text-sm font-bold text-white truncate" data-i18n="works.wordpress.clientPortal.title">Client Portal</span>
+                    </div>
+                    <span class="text-[9px] font-mono text-primary bg-primary/10 px-1.5 py-0.5 rounded border border-primary/20 shrink-0" data-i18n="works.wordpress.clientPortal.status">LIVE</span>
+                  </div>
+                  <p class="text-[11px] text-text-muted font-mono leading-snug pl-5" data-i18n="works.wordpress.clientPortal.desc">Custom theme and plugins for client dashboard.</p>
+                  <div class="flex gap-3 mt-1 pl-5 text-[9px] font-mono text-text-muted/70" data-i18n="works.wordpress.clientPortal.meta">SIZE: 28MB · UPDATED: 5d AGO</div>
+                </div>
+              </div>
+            </details>
+            <details class="works-folder group border border-transparent border-l-2 border-l-primary/20 rounded-r hover:border-primary/30">
+              <summary class="flex items-center gap-2 py-2 px-3 font-mono text-sm text-white hover:text-primary transition-colors">
+                <span class="folder-icon text-text-muted group-hover:text-primary transition-colors inline-flex shrink-0" aria-hidden="true">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                </span>
+                <span class="works-folder-chevron w-2 h-2 shrink-0 inline-flex" aria-hidden="true">
+                  <svg class="w-full h-full" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </span>
+                <span>Angular</span>
+              </summary>
+              <div class="works-folder-content pl-6 pb-2 space-y-1.5">
+                <div class="directory-card directory-card-compact rounded-r border border-transparent border-l-2 cursor-pointer">
+                  <div class="flex justify-between items-center gap-2 mb-0.5">
+                    <div class="flex items-center gap-2 min-w-0">
+                      <span class="folder-icon text-text-muted shrink-0 inline-flex"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2v6h6"/><path d="M14 2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg></span>
+                      <span class="text-sm font-bold text-white truncate" data-i18n="works.angular.adminSpa.title">Admin SPA</span>
+                    </div>
+                    <span class="text-[9px] font-mono text-amber-400 bg-amber-400/10 px-1.5 py-0.5 rounded border border-amber-400/20 shrink-0" data-i18n="works.angular.adminSpa.status">BETA</span>
+                  </div>
+                  <p class="text-[11px] text-text-muted font-mono leading-snug pl-5" data-i18n="works.angular.adminSpa.desc">Internal tools and reporting dashboard.</p>
+                  <div class="flex gap-3 mt-1 pl-5 text-[9px] font-mono text-text-muted/70" data-i18n="works.angular.adminSpa.meta">SIZE: 12MB · UPDATED: 1d AGO</div>
+                </div>
+              </div>
+            </details>
+            <details class="works-folder group border border-transparent border-l-2 border-l-primary/20 rounded-r hover:border-primary/30">
+              <summary class="flex items-center gap-2 py-2 px-3 font-mono text-sm text-white hover:text-primary transition-colors">
+                <span class="folder-icon text-text-muted group-hover:text-primary transition-colors inline-flex shrink-0" aria-hidden="true">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                </span>
+                <span class="works-folder-chevron w-2 h-2 shrink-0 inline-flex" aria-hidden="true">
+                  <svg class="w-full h-full" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </span>
+                <span>Other</span>
+              </summary>
+              <div class="works-folder-content pl-6 pb-2 space-y-1.5">
+                <div class="directory-card directory-card-compact rounded-r border border-transparent border-l-2 cursor-pointer">
+                  <div class="flex justify-between items-center gap-2 mb-0.5">
+                    <div class="flex items-center gap-2 min-w-0">
+                      <span class="folder-icon text-text-muted shrink-0 inline-flex"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></span>
+                      <span class="text-sm font-bold text-white truncate" data-i18n="works.other.cliTools.title">CLI Tools</span>
+                    </div>
+                    <span class="text-[9px] font-mono text-text-muted bg-surface-lighter px-1.5 py-0.5 rounded border border-border-dark shrink-0" data-i18n="works.other.cliTools.status">ARCHIVED</span>
+                  </div>
+                  <p class="text-[11px] text-text-muted font-mono leading-snug pl-5" data-i18n="works.other.cliTools.desc">Scripts and automation utilities.</p>
+                  <div class="flex gap-3 mt-1 pl-5 text-[9px] font-mono text-text-muted/70" data-i18n="works.other.cliTools.meta">SIZE: 8MB · UPDATED: 2024-10</div>
+                </div>
+              </div>
+            </details>
+          </div>
+          <div class="absolute top-0 left-0 w-20 h-20 md:w-24 md:h-24 border-l border-t border-primary/10 pointer-events-none shrink-0"></div>
+        </div>
+        <div class="slide-page social-page flex flex-col flex-1 min-h-0 relative" data-slide-index="3">
+          <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <div class="social-orbital-path w-[200px] h-[200px] md:w-[280px] md:h-[280px] opacity-20 animate-spin-slow" style="animation-duration: 50s;"></div>
+            <div class="social-orbital-path w-[320px] h-[320px] md:w-[420px] md:h-[420px] opacity-10 animate-spin-slow" style="animation-duration: 75s; animation-direction: reverse;"></div>
+            <svg class="absolute inset-0 w-full h-full opacity-30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <line stroke="rgba(13, 242, 242, 0.2)" stroke-width="1" x1="0" x2="100%" y1="50%" y2="50%"/>
+              <line stroke="rgba(13, 242, 242, 0.2)" stroke-width="1" x1="50%" x2="50%" y1="0" y2="100%"/>
+              <circle cx="50%" cy="50%" fill="#0df2f2" r="3" class="animate-pulse" opacity="0.8"/>
+            </svg>
+          </div>
+          <div class="flex-1 flex flex-col md:flex-row min-h-0 gap-4 relative z-10 pt-2">
+            <div class="social-live-card w-full md:w-52 shrink-0 h-40 md:h-[70%] max-h-56 md:max-h-none bg-surface-dark/40 backdrop-blur-sm border border-primary/10 rounded-lg flex flex-col overflow-hidden">
+              <div class="social-live-card-header p-2 border-b border-primary/10 bg-surface-lighter/30 shrink-0">
+                <h3 class="social-live-card-title text-[10px] font-mono font-bold text-primary flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" aria-hidden="true"></span>
+                  <span data-i18n="social.liveFeed.header">LIVE_FEED</span>
+                </h3>
+              </div>
+              <div class="flex-1 overflow-hidden relative social-feed-mask">
+                <div class="absolute w-full animate-scroll-up p-3 space-y-2">
+                  <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-primary/20 pl-2">
+                    <span class="text-primary block">@cookiebytes</span>
+                    <span class="opacity-70" data-i18n="social.feed.launchTeaser">Launch teaser posted</span>
+                    <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.2h">2h ago</span>
+                  </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-primary/20 pl-2">
+                  <span class="text-primary block">@apps</span>
+                  <span class="opacity-70" data-i18n="social.feed.bigApp">Big application · HamNava app on Phase 2</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.2h">2h ago</span>
+                </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-emerald-500/20 pl-2">
+                  <span class="text-emerald-400 block">@nuget</span>
+                  <span class="opacity-70" data-i18n="social.feed.chatNuget">NuGet packages · chat package on tests</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.5h">5h ago</span>
+                </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-purple-500/20 pl-2">
+                  <span class="text-purple-400 block">@npm</span>
+                  <span class="opacity-70" data-i18n="social.feed.frontHelperNpm">NPM publishing · front helper published</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.1d">1d ago</span>
+                </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-primary/20 pl-2">
+                  <span class="text-primary block">@projects</span>
+                  <span class="opacity-70" data-i18n="social.feed.bigProject">Big project · 1001Shab website on launch</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.2d">2d ago</span>
+                </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-amber-500/20 pl-2">
+                  <span class="text-amber-400 block">@wp</span>
+                  <span class="opacity-70" data-i18n="social.feed.wpProject">WP project · Yildiz furniture stores online</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.3d">3d ago</span>
+                </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-emerald-500/20 pl-2">
+                  <span class="text-emerald-400 block">@nuget</span>
+                  <span class="opacity-70" data-i18n="social.feed.mediaNuget">NuGet package · media library on tests</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.3d">3d ago</span>
+                </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-primary/20 pl-2">
+                  <span class="text-primary block">@central</span>
+                  <span class="opacity-70" data-i18n="social.feed.centralSite">Central · CookieBytes website on demo</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.1d">1d ago</span>
+                </div>
+                <div class="social-feed-item font-mono text-[9px] text-text-muted/80 border-l-2 border-purple-500/20 pl-2">
+                  <span class="text-purple-400 block">@nuget</span>
+                  <span class="opacity-70" data-i18n="social.feed.notificationNuget">NuGet package · notification package on tests</span>
+                  <span class="text-[8px] opacity-50 block mt-0.5" data-i18n="social.feed.time.2h">2h ago</span>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 flex items-center justify-center relative min-h-0">
+              <div class="relative z-20 transform scale-90 md:scale-100 md:translate-x-4">
+                <div class="social-iso-grid">
+                  <div class="social-iso-bar" style="--h: 10px;"></div>
+                  <div class="social-iso-bar" style="--h: 22px;"></div>
+                  <div class="social-iso-bar" style="--h: 14px;"></div>
+                  <div class="social-iso-bar" style="--h: 35px;"></div>
+                  <div class="social-iso-bar" style="--h: 18px;"></div>
+                  <div class="social-iso-bar" style="--h: 10px;"></div>
+                  <div class="social-iso-bar" style="--h: 6px;"></div>
+                  <div class="social-iso-bar" style="--h: 18px;"></div>
+                  <div class="social-iso-bar" style="--h: 40px;"></div>
+                  <div class="social-iso-bar" style="--h: 26px;"></div>
+                  <div class="social-iso-bar" style="--h: 50px;"></div>
+                  <div class="social-iso-bar" style="--h: 32px;"></div>
+                  <div class="social-iso-bar" style="--h: 18px;"></div>
+                  <div class="social-iso-bar" style="--h: 14px;"></div>
+                  <div class="social-iso-bar" style="--h: 26px;"></div>
+                  <div class="social-iso-bar" style="--h: 48px;"></div>
+                  <div class="social-iso-bar" style="--h: 70px;"></div>
+                  <div class="social-iso-bar" style="--h: 44px;"></div>
+                  <div class="social-iso-bar" style="--h: 35px;"></div>
+                  <div class="social-iso-bar" style="--h: 22px;"></div>
+                  <div class="social-iso-bar" style="--h: 18px;"></div>
+                  <div class="social-iso-bar" style="--h: 22px;"></div>
+                  <div class="social-iso-bar" style="--h: 35px;"></div>
+                  <div class="social-iso-bar" style="--h: 52px;"></div>
+                  <div class="social-iso-bar" style="--h: 78px;"></div>
+                  <div class="social-iso-bar" style="--h: 42px;"></div>
+                  <div class="social-iso-bar" style="--h: 28px;"></div>
+                  <div class="social-iso-bar" style="--h: 14px;"></div>
+                  <div class="social-iso-bar" style="--h: 14px;"></div>
+                  <div class="social-iso-bar" style="--h: 28px;"></div>
+                  <div class="social-iso-bar" style="--h: 42px;"></div>
+                  <div class="social-iso-bar" style="--h: 32px;"></div>
+                  <div class="social-iso-bar" style="--h: 22px;"></div>
+                  <div class="social-iso-bar" style="--h: 14px;"></div>
+                  <div class="social-iso-bar" style="--h: 10px;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="social-status-card social-status-card-community absolute left-4 top-1/2 -translate-y-1/2 md:left-6 md:top-6 md:right-auto md:translate-y-0 animate-float bg-surface-dark/80 backdrop-blur border border-primary/20 p-2.5 rounded-lg w-40 shadow-[0_0_20px_rgba(13,242,242,0.1)] z-20">
+            <div class="flex items-center justify-between mb-1.5">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-flex text-white" aria-hidden="true">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.69-3.88-1.54-3.88-1.54-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.02 1.76 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.27 1.19-3.07-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.17a11.02 11.02 0 0 1 5.8 0c2.2-1.48 3.17-1.17 3.17-1.17.64 1.58.24 2.75.12 3.04.74.8 1.18 1.82 1.18 3.07 0 4.41-2.69 5.39-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.13 0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+                  </svg>
+                </span>
+                <span class="text-[10px] font-bold text-white" data-i18n="social.githubCard.title">GitHub</span>
+              </div>
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_5px_#34d399]" aria-hidden="true"></span>
+            </div>
+            <div class="space-y-1">
+              <div class="flex justify-between text-[8px] font-mono text-text-muted">
+                <span data-i18n="social.github.reposLabel">Repos</span>
+                <span class="text-emerald-400" data-i18n="social.github.reposValue">12 public</span>
+              </div>
+              <div class="h-0.5 w-full bg-surface-lighter rounded-full overflow-hidden">
+                <div class="h-full bg-emerald-400 w-[88%] shadow-[0_0_5px_#34d399]"></div>
+              </div>
+              <div class="text-[8px] font-mono text-primary/60 text-right" data-i18n="social.github.highlight">Pinned: cookiebytes-os</div>
+            </div>
+          </div>
+          <div class="social-status-card social-status-card-updates absolute bottom-20 right-4 md:bottom-24 md:left-6 md:right-auto animate-float-delayed bg-surface-dark/80 backdrop-blur border border-primary/20 p-2.5 rounded-lg w-40 shadow-[0_0_20px_rgba(13,242,242,0.1)] z-20">
+            <div class="flex items-center justify-between mb-1.5">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-flex text-white" aria-hidden="true"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span>
+                <span class="text-[10px] font-bold text-white" data-i18n="social.updatesCard.title">Updates</span>
+              </div>
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_5px_#34d399]" aria-hidden="true"></span>
+            </div>
+              <div class="space-y-1">
+              <div class="flex justify-between text-[8px] font-mono text-text-muted">
+                <span data-i18n="social.status.signal">SIGNAL</span>
+                <span class="text-emerald-400" data-i18n="social.status.stable">STABLE</span>
+              </div>
+              <div class="h-0.5 w-full bg-surface-lighter rounded-full overflow-hidden">
+                <div class="h-full bg-emerald-400 w-[85%]"></div>
+              </div>
+              <div class="text-[8px] font-mono text-primary/60 text-right" data-i18n="social.status.encrypted">ENCRYPTED</div>
+            </div>
+          </div>
+          <div class="absolute top-0 left-0 w-20 h-20 md:w-24 md:h-24 border-l border-t border-primary/10 pointer-events-none"></div>
+        </div>
+        <div class="slide-page contact-page flex flex-col flex-1 min-h-0 relative" data-slide-index="4">
+          <div class="flex-1 flex flex-col md:flex-row gap-4 md:gap-6 min-h-0 overflow-y-auto">
+            <form class="flex-1 flex flex-col gap-3 md:gap-4 min-w-0" action="#" method="post" data-contact-form novalidate>
+              <div data-contact-validation-errors class="hidden rounded-lg border border-red-500/50 bg-red-500/10 px-3 py-2 text-xs font-mono text-red-400" role="alert" aria-live="polite"></div>
+              <div class="relative contact-input-packet group" data-contact-field="sender">
+                <div class="absolute inset-0 bg-surface-glass border border-primary/10 rounded transition-colors group-hover:border-primary/30"></div>
+                <div class="contact-tech-corner contact-tech-corner-tl rounded-tl"></div>
+                <div class="contact-tech-corner contact-tech-corner-tr rounded-tr"></div>
+                <div class="contact-tech-corner contact-tech-corner-bl rounded-bl"></div>
+                <div class="contact-tech-corner contact-tech-corner-br rounded-br"></div>
+                <div class="relative p-3 flex flex-col gap-0.5 z-10">
+                  <label class="text-[9px] font-mono text-primary/60 uppercase tracking-widest flex items-center gap-1.5">
+                    <span class="inline-flex shrink-0" aria-hidden="true"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+                    <span data-i18n="contact.senderLabel">Sender Identity</span>
+                  </label>
+                  <input class="text-sm md:text-base" autocomplete="off" name="sender" type="text" placeholder="ENTER_ID_hash..." data-i18n-placeholder="contact.senderPlaceholder" />
+                </div>
+              </div>
+              <div class="flex flex-col md:flex-row gap-2 md:gap-4 text-[9px] md:text-[10px] font-mono text-text-muted">
+                <div class="flex items-center gap-2">
+                  <span class="text-primary/70" data-i18n="contact.senderTypeLabel">I am contacting as</span>
+                  <label class="inline-flex items-center gap-1">
+                    <input type="radio" name="senderType" value="personal" class="accent-primary" checked />
+                    <span data-i18n="contact.senderType.personal">Individual</span>
+                  </label>
+                  <label class="inline-flex items-center gap-1">
+                    <input type="radio" name="senderType" value="organization" class="accent-primary" />
+                    <span data-i18n="contact.senderType.organization">Organization</span>
+                  </label>
+                </div>
+                <div class="flex items-center gap-2" data-gender-group>
+                  <span class="text-primary/70" data-i18n="contact.genderLabel">Profile</span>
+                  <label class="inline-flex items-center gap-1">
+                    <input type="radio" name="senderGender" value="male" class="accent-primary" checked />
+                    <span data-i18n="contact.gender.male">Male</span>
+                  </label>
+                  <label class="inline-flex items-center gap-1">
+                    <input type="radio" name="senderGender" value="female" class="accent-primary" />
+                    <span data-i18n="contact.gender.female">Female</span>
+                  </label>
+                </div>
+              </div>
+              <div class="relative contact-input-packet group">
+                <div class="absolute inset-0 bg-surface-glass border border-primary/10 rounded transition-colors group-hover:border-primary/30"></div>
+                <div class="contact-tech-corner contact-tech-corner-tl rounded-tl"></div>
+                <div class="contact-tech-corner contact-tech-corner-tr rounded-tr"></div>
+                <div class="contact-tech-corner contact-tech-corner-bl rounded-bl"></div>
+                <div class="contact-tech-corner contact-tech-corner-br rounded-br"></div>
+                <div class="relative p-3 flex flex-col gap-0.5 z-10">
+                  <label class="text-[9px] font-mono text-primary/60 uppercase tracking-widest flex items-center gap-1.5">
+                    <span class="inline-flex shrink-0" aria-hidden="true"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></span>
+                    <span data-i18n="contact.subjectLabel">Subject Vector</span>
+                  </label>
+                  <input class="text-sm md:text-base" autocomplete="off" name="subject" type="text" placeholder="Define transmission purpose..." data-i18n-placeholder="contact.subjectPlaceholder" />
+                </div>
+              </div>
+              <div class="relative contact-input-packet group flex-1 min-h-[80px] md:min-h-[100px]" data-contact-field="message">
+                <div class="absolute inset-0 bg-surface-glass border border-primary/10 rounded transition-colors group-hover:border-primary/30"></div>
+                <div class="contact-tech-corner contact-tech-corner-tl rounded-tl"></div>
+                <div class="contact-tech-corner contact-tech-corner-tr rounded-tr"></div>
+                <div class="contact-tech-corner contact-tech-corner-bl rounded-bl"></div>
+                <div class="contact-tech-corner contact-tech-corner-br rounded-br"></div>
+                <div class="relative p-3 flex flex-col gap-0.5 z-10 h-full">
+                  <label class="text-[9px] font-mono text-primary/60 uppercase tracking-widest flex items-center gap-1.5 mb-1">
+                    <span class="inline-flex shrink-0" aria-hidden="true"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 17l6-6-6-6"/><path d="M12 19h8"/></svg></span>
+                    <span data-i18n="contact.payloadLabel">Data Payload</span>
+                  </label>
+                  <textarea class="flex-1 resize-none text-sm md:text-base leading-relaxed min-h-[40px] md:min-h-[60px]" name="message" placeholder="// Begin transmission data entry..." data-i18n-placeholder="contact.messagePlaceholder"></textarea>
+                </div>
+                <div class="absolute bottom-2 right-3 text-[9px] font-mono text-primary/30 pointer-events-none" data-i18n="contact.counter">0/2048 BYTES</div>
+              </div>
+              <!-- No traditional submit button; fingerprint control on the right handles sending -->
+            </form>
+            <div class="flex flex-col gap-3 md:w-52 shrink-0 text-[10px] font-mono text-text-muted">
+              <div data-contact-menu class="hidden glass-card rounded-lg px-3 py-3 border border-primary/30 text-[10px] font-mono text-text-muted"></div>
+              <div data-contact-cards class="flex flex-col gap-3">
+                <div class="glass-card rounded-lg px-3 py-3 border border-primary/20">
+                  <div class="text-primary text-xs font-bold tracking-widest uppercase mb-1" data-i18n="contact.group.heading">Group contact</div>
+                  <p>
+                    <span data-i18n="contact.label.phone">Phone</span>:
+                    <a href="tel:+989384383901" class="md:hidden">+98 938 438 3901</a>
+                    <span class="hidden md:inline">+98 938 438 3901</span>
+                  </p>
+                  <p><span data-i18n="contact.label.email">Email</span>: cookiebytesgp@gmail.com</p>
+                </div>
+                <div class="glass-card rounded-lg px-3 py-3 border border-primary/20">
+                  <div class="text-primary text-xs font-bold tracking-widest uppercase mb-1" data-i18n="contact.support1.heading">Support 01</div>
+                  <p>
+                    <span data-i18n="contact.label.phone">Phone</span>:
+                    <a href="tel:+989384383901" class="md:hidden">+98 938 438 3901</a>
+                    <span class="hidden md:inline">+98 938 438 3901</span>
+                  </p>
+                  <p><span data-i18n="contact.label.email">Email</span>: mohamadazadi1369@gmail.com</p>
+                </div>
+                <div class="glass-card rounded-lg px-3 py-3 border border-primary/20">
+                  <div class="text-primary text-xs font-bold tracking-widest uppercase mb-1" data-i18n="contact.support2.heading">Support 02</div>
+                  <p>
+                    <span data-i18n="contact.label.phone">Phone</span>:
+                    <a href="tel:+989963378452" class="md:hidden">+98 996 337 8452</a>
+                    <span class="hidden md:inline">+98 996 337 8452</span>
+                  </p>
+                  <p><span data-i18n="contact.label.email">Email</span>: mkooshafar2@gmail.com</p>
+                </div>
+              </div>
+              <div class="flex items-center justify-center md:justify-end gap-6">
+                <button
+                  type="button"
+                  class="contact-back-btn inline-flex items-center justify-center text-primary"
+                  aria-label="Back"
+                  data-contact-back
+                >
+                  <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 18l-6-6 6-6"/>
+                  </svg>
+                </button>
+                <button type="button" class="contact-fingerprint-btn w-20 h-20 md:w-24 md:h-24 rounded-full border border-primary/30 relative group transition-all duration-300 active:scale-95 flex items-center justify-center overflow-hidden" data-contact-trigger>
+                  <div class="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors rounded-full"></div>
+                  <span class="inline-flex text-primary/40 group-hover:text-primary transition-colors animate-fingerprint relative z-10" aria-hidden="true"><svg class="w-8 h-8 md:w-10 md:h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 11c0 1.66-1.34 3-3 3S6 12.66 6 11s1.34-3 3-3 3 1.34 3 3z"/><path d="M12 20c-2.76 0-5-2.24-5-5H5c0 3.87 3.13 7 7 7s7-3.13 7-7h-2c0 2.76-2.24 5-5 5z"/><path d="M12 8V4M12 20v-2"/><path d="M4 12H2M22 12h-2"/><path d="M6.34 6.34L4.93 4.93M19.07 19.07l-1.41-1.41"/><path d="M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg></span>
+                  <span class="absolute bottom-3 left-1/2 -translate-x-1/2 text-[8px] font-mono text-primary font-bold tracking-widest opacity-0 group-hover:opacity-100 transition-opacity" data-i18n="contact.transmit">TRANSMIT</span>
+                  <span class="absolute inset-0 rounded-full border-2 border-primary/20 border-t-primary/60 border-l-transparent border-r-transparent border-b-transparent animate-spin" style="animation-duration: 3s;"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute top-0 left-0 w-20 h-20 md:w-24 md:h-24 border-l border-t border-primary/10 pointer-events-none"></div>
+        </div>
+      </section>
+
+      <!-- Modals: About / Story / Services -->
+      <div
+        data-modal="story"
+        class="modal-root fixed inset-0 z-50 hidden items-center justify-center px-4"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+      >
+        <button
+          type="button"
+          class="absolute inset-0 bg-black/70 backdrop-blur-sm"
+          data-modal-close
+          aria-label="Close story modal"
+        ></button>
+        <div class="modal-card relative max-w-lg w-full glass-card border border-primary/30 rounded-xl shadow-2xl p-4 md:p-6 z-10">
+          <div class="flex items-start justify-between gap-4 mb-3 md:mb-4">
+            <div>
+              <div class="text-[10px] md:text-xs font-mono tracking-widest uppercase text-primary/70 mb-1" data-i18n="modal.story.badge">
+                Group story
+              </div>
+              <h2 class="text-sm md:text-base font-mono font-bold text-white tracking-widest uppercase" data-i18n="modal.story.title">
+                How CookieBytes started
+              </h2>
+            </div>
+            <button
+              type="button"
+              class="inline-flex items-center justify-center w-7 h-7 rounded-full border border-primary/30 text-primary/80 hover:text-white hover:bg-primary/30 hover:border-primary/60 transition-colors"
+              data-modal-close
+              aria-label="Close"
+            >
+              <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 6l12 12M6 18L18 6"/>
+              </svg>
+            </button>
+          </div>
+          <div class="space-y-2 md:space-y-3 text-[11px] md:text-sm text-text-muted leading-relaxed">
+            <p data-i18n="modal.story.p1">
+              Our story started with a simple need: bring order to our work, organize our assets, and create a space where projects could grow without chaos. What began as a small cleanup quickly turned into a deeper interest in modularity, clean architecture, and scalable design principles.
+            </p>
+            <p data-i18n="modal.story.p2">
+              Over time, that mindset shaped us into a team that cares about clarity, structure, and long-term thinking. We learned how powerful a well-designed system can be—and how, when it is done right, it unlocks creativity instead of getting in the way.
+            </p>
+            <p data-i18n="modal.story.p3">
+              Now we are stepping into a new phase. We want to build systems that are not only reliable and scalable, but also meaningful, elegant, and distinctly ours. We know we are still at the beginning of a long road—one that leads to bigger projects, stronger infrastructure, and a community of developers who enjoy understanding how things work under the hood.
+            </p>
+            <p data-i18n="modal.story.p4">
+              Our aim is to nurture a nerd-driven culture: a place where curiosity is valued, knowledge is shared, and people are encouraged to dig deeper, learn more, and build boldly.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        data-modal="services"
+        class="modal-root fixed inset-0 z-50 hidden items-center justify-center px-4"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+      >
+        <button
+          type="button"
+          class="absolute inset-0 bg-black/70 backdrop-blur-sm"
+          data-modal-close
+          aria-label="Close services modal"
+        ></button>
+        <div class="modal-card relative max-w-lg w-full glass-card border border-primary/30 rounded-xl shadow-2xl p-4 md:p-6 z-10">
+          <div class="flex items-start justify-between gap-4 mb-3 md:mb-4">
+            <div>
+              <div class="text-[10px] md:text-xs font-mono tracking-widest uppercase text-primary/70 mb-1" data-i18n="modal.services.badge">
+                Services
+              </div>
+              <h2 class="text-sm md:text-base font-mono font-bold text-white tracking-widest uppercase" data-i18n="modal.services.title">
+                What we can do for you
+              </h2>
+            </div>
+            <button
+              type="button"
+              class="inline-flex items-center justify-center w-7 h-7 rounded-full border border-primary/30 text-primary/80 hover:text-white hover:bg-primary/30 hover:border-primary/60 transition-colors"
+              data-modal-close
+              aria-label="Close"
+            >
+              <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 6l12 12M6 18L18 6"/>
+              </svg>
+            </button>
+          </div>
+          <div class="space-y-2 md:space-y-3 text-[11px] md:text-sm text-text-muted leading-relaxed">
+            <p data-i18n="modal.services.p1">
+              We help you turn ideas into a clear and strong digital presence. We take time to understand your goals, shape your story, and design a clean, scalable system that represents you on the web.
+            </p>
+            <p data-i18n="modal.services.p2">
+              Whether you need a personal brand, a business platform, or a full digital ecosystem, we design it in a modular, future-ready way so it can grow with you instead of holding you back.
+            </p>
+            <p data-i18n="modal.services.p3">
+              The result is a reliable digital identity that feels professional and intentional, while still being uniquely yours.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact send modal: desktop only – choose email to send template + message -->
+      <div
+        data-modal="contact-send"
+        class="modal-root fixed inset-0 z-50 hidden items-center justify-center px-4"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+      >
+        <button
+          type="button"
+          class="absolute inset-0 bg-black/70 backdrop-blur-sm"
+          data-modal-close
+          aria-label="Close send email modal"
+        ></button>
+        <div class="modal-card relative max-w-md w-full glass-card border border-primary/30 rounded-xl shadow-2xl p-4 md:p-6 z-10">
+          <div class="flex items-start justify-between gap-4 mb-4">
+            <div>
+              <div class="text-[10px] md:text-xs font-mono tracking-widest uppercase text-primary/70 mb-1" data-i18n="modal.contactSend.badge">Send email</div>
+              <h2 class="text-sm md:text-base font-mono font-bold text-white tracking-widest uppercase" data-i18n="modal.contactSend.title">Choose recipient</h2>
+            </div>
+            <button
+              type="button"
+              class="inline-flex items-center justify-center w-7 h-7 rounded-full border border-primary/30 text-primary/80 hover:text-white hover:bg-primary/30 hover:border-primary/60 transition-colors"
+              data-modal-close
+              aria-label="Close"
+            >
+              <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 6l12 12M6 18L18 6"/>
+              </svg>
+            </button>
+          </div>
+          <p class="text-[11px] text-text-muted mb-4" data-i18n="modal.contactSend.desc">Send your message and subject to one of the addresses below.</p>
+          <div class="flex flex-col gap-2">
+            <button type="button" data-contact-modal-email="group" class="w-full text-left px-4 py-3 rounded-lg border border-primary/20 hover:border-primary/40 hover:bg-primary/10 text-text-muted hover:text-primary transition-colors font-mono text-sm">
+              <span class="font-bold text-primary/90" data-i18n="contact.group.heading">Group contact</span>
+              <span class="block text-[11px] mt-0.5 opacity-80">cookiebytesgp@gmail.com</span>
+            </button>
+            <button type="button" data-contact-modal-email="s1" class="w-full text-left px-4 py-3 rounded-lg border border-primary/20 hover:border-primary/40 hover:bg-primary/10 text-text-muted hover:text-primary transition-colors font-mono text-sm">
+              <span class="font-bold text-primary/90" data-i18n="contact.support1.heading">Support 01</span>
+              <span class="block text-[11px] mt-0.5 opacity-80">mohamadazadi1369@gmail.com</span>
+            </button>
+            <button type="button" data-contact-modal-email="s2" class="w-full text-left px-4 py-3 rounded-lg border border-primary/20 hover:border-primary/40 hover:bg-primary/10 text-text-muted hover:text-primary transition-colors font-mono text-sm">
+              <span class="font-bold text-primary/90" data-i18n="contact.support2.heading">Support 02</span>
+              <span class="block text-[11px] mt-0.5 opacity-80">mkooshafar2@gmail.com</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="hero-view" class="absolute inset-0 flex items-center justify-center z-10">
+        <div class="relative">
+          <div class="absolute inset-0 border border-primary/20 rounded-full w-[400px] h-[400px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 animate-spin-slow border-dashed"></div>
+          <div class="absolute inset-0 border border-primary/10 rounded-full w-[500px] h-[500px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 animate-spin-slow" style="animation-direction: reverse; animation-duration: 20s;"></div>
+          <div class="flex flex-col items-center gap-2">
+            <img src="logo.png" alt="CookieBytes web development group logo" class="w-80 sm:w-[22rem] md:w-[26rem] max-w-full mb-2 opacity-90 hero-logo-wide" />
+            <div class="text-[56px] sm:text-[72px] md:text-[96px] lg:text-[120px] font-bold font-mono leading-none tracking-tighter glow-text mix-blend-screen">
+              <span data-countdown class="hero-countdown">00:00:00</span>
+            </div>
+            <div class="text-primary font-mono text-sm tracking-[0.5em] mt-2 bg-primary/10 px-4 py-1 rounded" data-i18n="hero.releaseLabel">SITE RELEASE</div>
+            <div
+              class="text-text-muted text-[10px] mt-2 font-mono"
+              data-i18n="hero.maintenanceCta"
+            >
+              Under maintenance / Follow us
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-24 md:h-32 flex items-end justify-center gap-1 opacity-40 px-12 z-0">
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.2s; animation-delay: 0.1s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.5s; animation-delay: 0.2s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.1s; animation-delay: 0.3s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.8s; animation-delay: 0.1s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.3s; animation-delay: 0.4s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.6s; animation-delay: 0.2s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.4s; animation-delay: 0.5s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.9s; animation-delay: 0.3s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.2s; animation-delay: 0.1s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.5s; animation-delay: 0.4s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.1s; animation-delay: 0.2s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.7s; animation-delay: 0.5s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.3s; animation-delay: 0.3s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.8s; animation-delay: 0.1s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.4s; animation-delay: 0.4s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.6s; animation-delay: 0.2s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.2s; animation-delay: 0.5s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.5s; animation-delay: 0.3s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.9s; animation-delay: 0.1s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.1s; animation-delay: 0.4s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.7s; animation-delay: 0.2s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.3s; animation-delay: 0.5s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.8s; animation-delay: 0.3s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.4s; animation-delay: 0.1s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.6s; animation-delay: 0.4s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.2s; animation-delay: 0.2s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.5s; animation-delay: 0.5s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.1s; animation-delay: 0.3s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.9s; animation-delay: 0.1s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.3s; animation-delay: 0.4s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.7s; animation-delay: 0.2s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.4s; animation-delay: 0.5s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.6s; animation-delay: 0.3s;"></div>
+          <div class="w-1 bg-primary h-full animate-wave" style="animation-duration: 1.2s; animation-delay: 0.1s;"></div>
+        </div>
+      </div>
+      <div class="absolute top-0 left-0 w-32 h-32 border-l border-t border-primary/10 pointer-events-none"></div>
+      <div class="absolute bottom-0 right-0 w-32 h-32 border-r border-b border-primary/10 pointer-events-none"></div>
+    </div>
+    <!-- Right panel: desktop = vertical stack, mobile = Embla carousel -->
+    <div class="right-rail w-full md:w-[25%] md:h-full min-h-0 relative bg-surface-dark/30 backdrop-blur-sm flex flex-col z-20 md:shadow-[-20px_0_40px_rgba(0,0,0,0.5)] order-2">
+      <div class="absolute inset-0 bg-[linear-gradient(rgba(13,242,242,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(13,242,242,0.02)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none"></div>
+      <div class="embla flex-1 min-h-0">
+        <div class="embla__viewport h-full">
+          <!-- Carousel track: horizontal on mobile (scrollable), vertical scroll on desktop -->
+          <div
+            id="carousel-track"
+            class="embla__container carousel-track flex items-start md:items-stretch md:flex-col overflow-x-auto md:overflow-x-visible overflow-y-hidden md:overflow-y-auto flex-1 min-h-0 scroll-smooth md:justify-start gap-1.5 px-2 py-1.5 md:px-8 md:py-8 md:gap-6 lg:px-12"
+          >
+          <!-- 0. Coming Soon -->
+          <div class="embla__slide carousel-slide glass-card flex-shrink-0 w-[45%] max-w-[180px] md:w-full md:max-w-none md:min-w-0 p-2 md:p-6 rounded-lg relative overflow-hidden group cursor-pointer">
+            <div class="flex flex-col relative z-10">
+              <div class="flex justify-between items-start mb-0.5 md:mb-2">
+              <span class="card-num text-base md:text-4xl font-bold text-white/10 font-mono transition-colors duration-300 leading-none">00</span>
+                <span class="text-[8px] uppercase tracking-widest text-primary border border-primary/30 px-1.5 py-0.5 rounded-full bg-primary/5" data-i18n="nav.comingSoon.badge">Coming Soon</span>
+              </div>
+              <h3 class="text-[10px] md:text-xl font-bold text-white mb-0.5 md:mb-1 group-hover:text-primary transition-colors leading-tight" data-i18n="nav.comingSoon.title">Coming Soon</h3>
+              <p class="carousel-desc text-[9px] md:text-xs text-text-muted mb-2 md:mb-6 font-mono leading-snug" data-i18n="nav.comingSoon.desc">
+                Launch details and countdown to CookieBytes OS.
+              </p>
+            </div>
+          </div>
+
+          <!-- 1. About -->
+          <div class="embla__slide carousel-slide glass-card flex-shrink-0 w-[45%] max-w-[180px] md:w-full md:max-w-none md:min-w-0 p-2 md:p-6 rounded-lg relative overflow-hidden group cursor-pointer">
+            <div class="flex flex-col relative z-10">
+              <div class="flex justify-between items-start mb-0.5 md:mb-2">
+                <span class="card-num text-base md:text-4xl font-bold text-white/10 font-mono transition-colors duration-300 leading-none">01</span>
+                <span class="text-[8px] uppercase tracking-widest text-primary border border-primary/30 px-1.5 py-0.5 rounded-full bg-primary/5" data-i18n="nav.about.badge">About</span>
+              </div>
+              <h3 class="text-[10px] md:text-xl font-bold text-white mb-0.5 md:mb-1 group-hover:text-primary transition-colors leading-tight" data-i18n="nav.about.title">About</h3>
+              <p class="carousel-desc text-[9px] md:text-xs text-text-muted mb-2 md:mb-6 font-mono leading-snug" data-i18n="nav.about.desc">
+                Who we are and how CookieBytes OS was born.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. Works -->
+          <div class="embla__slide carousel-slide glass-card flex-shrink-0 w-[45%] max-w-[180px] md:w-full md:max-w-none md:min-w-0 p-2 md:p-6 rounded-lg relative overflow-hidden group cursor-pointer">
+            <div class="flex flex-col relative z-10">
+              <div class="flex justify-between items-start mb-0.5 md:mb-2">
+                <span class="card-num text-base md:text-4xl font-bold text-white/10 font-mono transition-colors duration-300 leading-none">02</span>
+                <span class="text-[8px] uppercase tracking-widest text-text-muted border border-border-dark px-1.5 py-0.5 rounded-full bg-surface-lighter" data-i18n="nav.works.badge">Works</span>
+              </div>
+              <h3 class="text-[10px] md:text-xl font-bold text-white mb-0.5 md:mb-1 group-hover:text-primary transition-colors leading-tight" data-i18n="nav.works.title">Works</h3>
+              <p class="carousel-desc text-[9px] md:text-xs text-text-muted mb-2 md:mb-6 font-mono leading-snug" data-i18n="nav.works.desc">
+                Selected projects, case studies, and experiments.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Social Media -->
+          <div class="embla__slide carousel-slide glass-card flex-shrink-0 w-[45%] max-w-[180px] md:w-full md:max-w-none md:min-w-0 p-2 md:p-6 rounded-lg relative overflow-hidden group cursor-pointer">
+            <div class="flex flex-col relative z-10">
+              <div class="flex justify-between items-start mb-0.5 md:mb-2">
+                <span class="card-num text-base md:text-4xl font-bold text-white/10 font-mono transition-colors duration-300 leading-none">03</span>
+                <span class="text-[8px] uppercase tracking-widest text-primary border border-primary/30 px-1.5 py-0.5 rounded-full bg-primary/5" data-i18n="nav.social.badge">Social</span>
+              </div>
+              <h3 class="text-[10px] md:text-xl font-bold text-white mb-0.5 md:mb-1 group-hover:text-primary transition-colors leading-tight" data-i18n="nav.social.title">Social Media</h3>
+              <p class="carousel-desc text-[9px] md:text-xs text-text-muted mb-2 md:mb-6 font-mono leading-snug" data-i18n="nav.social.desc">
+                Latest updates and streams from our channels.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4. Contact -->
+          <div class="embla__slide carousel-slide glass-card flex-shrink-0 w-[45%] max-w-[180px] md:w-full md:max-w-none md:min-w-0 p-2 md:p-6 rounded-lg relative overflow-hidden group cursor-pointer">
+            <div class="flex flex-col relative z-10">
+              <div class="flex justify-between items-start mb-0.5 md:mb-2">
+                <span class="card-num text-base md:text-4xl font-bold text-white/10 font-mono transition-colors duration-300 leading-none">04</span>
+                <span class="text-[8px] uppercase tracking-widest text-primary border border-primary/30 px-1.5 py-0.5 rounded-full bg-primary/5" data-i18n="nav.contact.badge">Contact</span>
+              </div>
+              <h3 class="text-[10px] md:text-xl font-bold text-white mb-0.5 md:mb-1 group-hover:text-primary transition-colors leading-tight" data-i18n="nav.contact.title">Contact</h3>
+              <p class="carousel-desc text-[9px] md:text-xs text-text-muted mb-2 md:mb-6 font-mono leading-snug" data-i18n="nav.contact.desc">
+                Say hello, request a demo, or collaborate.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute -right-20 top-1/2 -translate-y-1/2 w-64 h-64 bg-primary/10 rounded-full blur-[80px] pointer-events-none"></div>
+    </div>
+    <!-- Mobile header (bottom): same content + theme/lang toggles -->
+    <header class="mobile-header flex md:hidden order-3 shrink-0 flex-col gap-3 p-4 border-t border-border-dark/50 bg-surface-dark/60 backdrop-blur-sm z-20">
+        <div class="flex items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <img src="logo.squeer.png" alt="CookieBytes web development group logo" class="logo-main" />
+        </div>
+        <div class="flex items-center gap-2">
+        <button type="button" id="theme-toggle-mobile" class="btn-icon flex items-center justify-center w-9 h-9 rounded-lg border border-border-dark/50 bg-surface-dark/50 text-text-muted hover:text-primary" aria-label="Toggle dark mode" data-i18n-aria-label="ui.themeToggle.aria">
+            <span class="theme-icon-dark"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+            <span class="theme-icon-light hidden"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></span>
+          </button>
+          <button type="button" id="lang-toggle-mobile" class="btn-icon flex items-center justify-center w-9 h-9 rounded-lg border border-border-dark/50 bg-surface-dark/50 text-text-muted hover:text-primary font-mono text-xs font-bold" aria-label="Switch language" data-i18n-aria-label="ui.langToggle.aria">EN</button>
+        </div>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white leading-tight">
+          <span data-i18n="hero.line1">Next Gen</span> <span class="text-primary" data-i18n="hero.line2">Digital Interface</span>
+        </h2>
+        <p class="text-text-muted text-[10px] font-mono mt-0.5" data-i18n="hero.tagline">Monitoring system integrity and data flow streams.</p>
+      </div>
+    </header>
+  </div>
+  <script src="js/vendor/embla-carousel.umd.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
